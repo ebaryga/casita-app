@@ -6,12 +6,12 @@ import productMockData from './productMockData.json';
 
 const Product = () => (
   <div className="container">
-    <Banner banner={productMockData.pictures.banner} />
+    <Banner banner={productMockData.banner} />
     <div className="grid grid-cols-12 col-gap-5 pt-12">
       <CardInformation
-        bonuses={productMockData.bonuses}
+        features={productMockData.features}
         description={productMockData.description}
-        images={productMockData.pictures.gallery}
+        images={productMockData.pictures}
         location={productMockData.location}
       />
       <CardBuy

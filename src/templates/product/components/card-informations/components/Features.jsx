@@ -378,31 +378,31 @@ const icons = {
   ),
 };
 
-const Bonus = ({ bonuses }) => (
+const Features = ({ features }) => (
   <div className="border-b">
     <h3 className="text-xl font-semibold">Les plus +</h3>
     <div className="flex items-center py-4">
-      {bonuses.map((bonus, index) => (
+      {features.map((feature, index) => (
         <div
-          key={bonus.label}
+          key={feature.label}
           className={`flex flex-col items-center justify-between
-        ${index < bonuses.length - 1 ? 'pr-12' : 'pr-0'}`}
+        ${index < features.length - 1 ? 'pr-12' : 'pr-0'}`}
         >
           <span
             className="flex items-center justify-center px-2 py-2 border rounded-full"
-            key={bonus.icon}
+            key={feature.icon}
           >
-            {icons[bonus.icon]}
+            {icons[feature.icon]}
           </span>
-          <p className="pt-2 text-sm font-semibold">{bonus.label}</p>
+          <p className="pt-2 text-sm font-semibold">{feature.label}</p>
         </div>
       ))}
     </div>
   </div>
 );
 
-Bonus.propTypes = {
-  bonuses: PropTypes.arrayOf(
+Features.propTypes = {
+  features: PropTypes.arrayOf(
     PropTypes.shape({
       icon: PropTypes.oneOf(['pool', 'patio', 'view', 'environment']).isRequired,
       label: PropTypes.string.isRequired,
@@ -410,4 +410,4 @@ Bonus.propTypes = {
   ).isRequired,
 };
 
-export default Bonus;
+export default Features;

@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Bonus, Gallery, Location } from './components';
+import { Features, Gallery, Location } from './components';
 
-const CardInformations = ({ bonuses, description, images, location }) => (
+const CardInformations = ({ features, description, images, location }) => (
   <div className="col-span-8">
     <div>
-      <Bonus bonuses={bonuses} />
+      <Features features={features} />
     </div>
     <div className="py-8 text-justify">
       <p>{description}</p>
@@ -21,7 +21,7 @@ const CardInformations = ({ bonuses, description, images, location }) => (
 );
 
 CardInformations.propTypes = {
-  bonuses: PropTypes.arrayOf(
+  features: PropTypes.arrayOf(
     PropTypes.shape({
       icon: PropTypes.oneOf(['pool', 'patio', 'view', 'environment']).isRequired,
       label: PropTypes.string.isRequired,
