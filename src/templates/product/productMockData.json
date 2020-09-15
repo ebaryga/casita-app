@@ -1,0 +1,52 @@
+{
+  "name": "Villa Mélania",
+  "type": "Appartement",
+  "description": "Faisant partie d'un des derniers développements à La Zagaleta, cette nouvelle maison maintient un style andalou classique, avec un ajout du design moderne. Dans un terrain spacieux de 6088 m², la maison offre 1147 m², faite de matériaux de haute qualité, tels que des fenêtres par Roman Clavero, du marbre spécialement produit et bien plus encore. Le premier étage dispose d'un grand salon et une salle à manger qui sont séparés par une cheminée. Il y a aussi une cuisine spacieuse de 65 mètres carrés avec des vues fascinantes. En outre, il y a une salle séparée à côté de la salle à manger, qui peut être utilisée comme un appartement d'invités, un logement du personnel ou une télévision/ salle de séjour supplémentaire. Dans l'autre partie de l'étage il y a 3 chambres à coucher, chacune comportant une salle de bains privative. Le deuxième étage dispose de 2 chambres, avec vue imprenable sur la mer et une terrasse spacieuse. La chambre principale se compose de trois pièces, l'une étant la penderie, une autre étant une salle de bains et le dernier peut être utilisé comme un bureau. Le rez-de-chaussée offre toute une gamme d'extras, comme une salle de jeux de 87 m², un garage qui peut accueillir 5 à 6 voitures, une buanderie, un appartement séparé et une salle, qui peut être transformée en salle de cinéma ou un espace spa. Le terrain dispose d'une piscine massive, d'une longueur totale de 15 mètres, vue panoramique sur la mer et la montagne. La maison offre beaucoup d'intimité, tout en conservant certains des meilleurs points de vue. Appelez-nous dès maintenant pour en apprendre plus sur ce bien d'exception. Notre équipe est toujours à l'écoute et sera ravie de vous apporter toutes les informations nécessaires.",
+  "location": {
+    "address": "82 Avenue des champs, Espagne",
+    "coords": ["39.459210", "-0.358830"]
+  },
+  "rate": 5,
+  "price": 405000,
+  "specifications": {
+    "floorArea": 114,
+    "livingArea": 114,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 1
+  },
+  "bonuses": [
+    { "icon": "pool", "label": "Piscine" },
+    { "icon": "patio", "label": "Terrasse" },
+    { "icon": "view", "label": "Belle vue" },
+    { "icon": "environment", "label": "Calme" }
+  ],
+  "pictures": {
+    "banner": {
+      "src": "https://a0.muscache.com/im/pictures/ae5a791f-20ed-43f9-a696-87776e73a480.jpg?aki_policy=xx_large",
+      "alt": "Big saloon"
+    },
+    "gallery": [
+      {
+        "id": "Melania-01",
+        "src": "https://a0.muscache.com/im/pictures/f64d8539-3301-4d3d-afd5-2bbafde5e520.jpg?im_w=1440",
+        "alt": "Big swimming pool"
+      },
+      {
+        "id": "Melania-02",
+        "src": "https://a0.muscache.com/im/pictures/ae5a791f-20ed-43f9-a696-87776e73a480.jpg?im_w=1200",
+        "alt": "Big saloon"
+      },
+      {
+        "id": "Melania-03",
+        "src": "https://a0.muscache.com/im/pictures/5c79d270-0a10-4a8b-8276-760d7bed44f3.jpg?im_w=1440",
+        "alt": "Functionnal Kitchen"
+      },
+      {
+        "id": "Melania-04",
+        "src": "https://a0.muscache.com/im/pictures/4edc6652-2483-41ab-a8cb-c751e83d0cbf.jpg?im_w=1440",
+        "alt": "King size bed"
+      }
+    ]
+  }
+}

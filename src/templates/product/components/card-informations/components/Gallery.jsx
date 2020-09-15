@@ -2,22 +2,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Magnifier from 'react-magnifier';
 
-const Pictures = ({ images }) => (
-  <div className="grid grid-cols-1 gap-5">
+const Gallery = ({ images }) => (
+  <div className="grid grid-cols-2 gap-4">
     {images.map((image) => (
-      <Magnifier key={image.id} src={image.url} alt={image.alt} mgShape="square" />
+      <Magnifier key={image.id} src={image.src} alt={image.alt} />
     ))}
   </div>
 );
 
-Pictures.propTypes = {
+Gallery.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
-      url: PropTypes.string.isRequired,
+      src: PropTypes.string.isRequired,
       alt: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired,
 };
 
-export default Pictures;
+export default Gallery;

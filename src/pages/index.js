@@ -4,7 +4,7 @@ import Product from '../templates/product';
 
 const HomePage = () => (
   <>
-    <div style={{ height: '146px' }} />
+    <nav className="h-32 bg-red-300" />
     <main>
       <Product />
     </main>

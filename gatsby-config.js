@@ -10,5 +10,6 @@ module.exports = {
         // whitelistPatterns: [/^slick-/],
       },
     },
+    'gatsby-plugin-react-leaflet',
   ],
 };
